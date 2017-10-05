@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         super.onSaveInstanceState(outState)
 
 
-        //outState.putString("aaaa","dddd" )
+
         dato=dato.toString()+"a"
         outState.putString("aaaa",dato.toString() )
     }
